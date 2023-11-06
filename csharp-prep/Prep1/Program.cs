@@ -2,8 +2,17 @@ using System;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Console.WriteLine("Hello Prep1 World!");
+        // user first name 
+        Console.Write("Enter your first name: ");
+        string firstName = Console.ReadLine();
+
+        // user last name 
+        Console.Write("Enter your last name: ");
+        string lastName = Console.ReadLine();
+
+        // display full name in this format.
+        Console.WriteLine($"Your name is {lastName}, {firstName} {lastName}.");
     }
 }
