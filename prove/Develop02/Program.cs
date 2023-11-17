@@ -155,3 +155,6 @@ class JournalProgram
         }
     }
 }
+
+
+// I made my code, able to handle csv files, putting special symbols into consideration. 
